@@ -27,7 +27,7 @@ pipeline {
         stage('Testing the Agent response') {
             steps {
                 // script{
-                    echo 'Inside agent machine:minikube'
+                    echo 'Inside agent machine:srv-minikube'
                     sh 'ls'
                     sh 'pwd'
                 // }
